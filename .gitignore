@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MLflow tracking data (large, local only)
+mlruns/
+mlflow.db
+
+# NOTE: models/model.pkl and model_comparison.csv are NOT ignored on purpose.
+# A deployed Streamlit app can only use files that are in the GitHub repo.
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+myenv/
+.vscode/
